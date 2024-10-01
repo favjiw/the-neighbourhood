@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #101010;
 }
 
 /* header css */
@@ -63,3 +63,26 @@ main .content #article-1{
     position: relative;
 }
 
+.container-1{
+    width: 1000px;
+    height: 500px;
+    padding: 10px 30px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-1 .c1-left h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 0px;
+}
+
+.container-1 .c1-right img{
+    width: 450px;
+    height: 450px;
+}
