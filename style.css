@@ -6,15 +6,6 @@ body{
     background-color: #101010;
 }
 
-/* header css */
-header{
-    width: 95%;
-    height: 80px;
-    margin: 20px auto;
-    border-radius: 1000px;
-    background-color: #222831;
-}
-
 header nav{
     width: 100%;
     display: flex;
@@ -34,9 +25,10 @@ header nav .left-nav{
 
 header nav .left-nav a{
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 22px;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 header nav .social{
@@ -44,6 +36,11 @@ header nav .social{
     width: 200px;
     display: flex;
     justify-content: space-between;
+}
+
+header nav .social img{
+    width: 30px;
+    height: 30px;
 }
 
 header h1{
@@ -72,13 +69,13 @@ main .content #article-1{
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container-1 .c1-left h1{
     text-align: center;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 55px;
     line-height: 0px;
 }
 
