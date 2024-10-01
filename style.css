@@ -1,9 +1,17 @@
 *{
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     background-color: #101010;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
 header nav{
@@ -24,7 +32,7 @@ header nav .left-nav{
 }
 
 header nav .left-nav a{
-    color: white;
+    color: #EEEEEE;
     font-weight: 400;
     font-size: 22px;
     text-decoration: none;
@@ -44,6 +52,7 @@ header nav .social img{
 }
 
 header h1{
+    color: #EEEEEE;
     font-weight: 600;
     font-size: 28px;
     font-style: italic;
@@ -64,7 +73,7 @@ main .content #article-1{
     width: 1000px;
     height: 500px;
     padding: 10px 30px;
-    background-color: white;
+    background-color: #EEEEEE;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
@@ -76,10 +85,22 @@ main .content #article-1{
     text-align: center;
     font-weight: 700;
     font-size: 55px;
-    line-height: 0px;
+    line-height: normal;
 }
 
 .container-1 .c1-right img{
     width: 450px;
     height: 450px;
 }
+
+main .content #article-1 #arrow-scroll-down{
+    display: block;
+    margin: 10px auto;
+    width: 40px;
+    height: 40px;
+}
+
+#arrow-scroll-down:hover{
+    cursor: pointer;
+}
+
